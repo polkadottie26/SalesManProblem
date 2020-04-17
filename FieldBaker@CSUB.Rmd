@@ -1,0 +1,37 @@
+---
+title: "Field Baker's day at campus"
+author: "Dr. J"
+date: "4/17/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(TSP)
+```
+
+Young Field Baker is planning his trip to CSUB campus.  He must make 5 stops and one visit to a restroom.  He starts and ends the day at the bus stop on campus
+
+The stops he must make and the North, East coordinates of each are givnen in the following table: (units are Cubits)
+
+   Location     |  coordinates (N, W)
+   -------------|--------------------
+   Bus stop     |  25, 200
+   Engineering Complex |  110, 160
+   Dorthy Donahue Building  |  250, 200
+   Student Union  |  250, 300
+   Walter Stern Library  | 300, 250
+   Administration Building | 260  , 50
+   
+   In addition he must one stop at a  restroom; the available restrooms are at locations (200,160), (340,110), and (280,290)
+   
+   Find the shortest route freshman Field can take on this visit.  Only 1 restroom stop
+   
+   
+```{r}
+
+```
+
+   
+   
+   
